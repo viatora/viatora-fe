@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Swiss721BT-BoldExtended";
+  src: url("./assets/fonts/swis721-bt-8.woff2") format("woff2");
+}
+
+body {
+  @apply bg-[#121212] text-white;
+  font-family: "Swiss721BT-BoldExtended", sans-serif;
+}
