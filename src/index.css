@@ -4,10 +4,25 @@
 
 @font-face {
   font-family: "Swiss721BT-BoldExtended";
-  src: url("./assets/fonts/swis721-bt-8.woff2") format("woff2");
+  src: url("./assets/fonts/Swiss721BT-BoldExtended.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Swiss721BT-LightExtended";
+  src: url("./assets/fonts/Swiss721BT-LightExtended.woff2") format("woff2");
 }
 
 body {
   @apply bg-[#121212] text-white;
+  font-family: "Swiss721BT-LightExtended", sans-serif;
+}
+
+h1,
+h2,
+nav {
   font-family: "Swiss721BT-BoldExtended", sans-serif;
+}
+
+input {
+  color: black;
 }
