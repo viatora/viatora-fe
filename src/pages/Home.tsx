@@ -4,7 +4,7 @@ import Logo from "../assets/logo.svg";
 
 export default function Home() {
   return (
-    <>
+    <main className="min-h-[95vh]">
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           aria-hidden="true"
@@ -18,24 +18,12 @@ export default function Home() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-2xl py-10">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm/6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Read about our sustainability commitments for 2024.{" "}
-              <a href="#" className="font-semibold text-indigo-600">
-                <span aria-hidden="true" className="absolute inset-0" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
+        <div className="mx-auto max-w-2xl py-20">
           <div className="text-center">
-            <h1 className="text-balance text-5xl font-semibold tracking-tight sm:text-7xl">
-              WELCOME TO
-            </h1>
             <img
               alt="Viatora Digital Logo"
               src={Logo}
-              className="m-20 h-60 mx-auto"
+              className="m-20 h-64 mx-auto"
             />
             <p className="text-pretty text-lg font-medium sm:text-xl/8">
               We are a digital agency with a passion for innovative web
@@ -46,7 +34,7 @@ export default function Home() {
                 href="/contact"
                 className="rounded-md text-black bg-[#EC5E29] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-[#fd8960] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Contact us to see how we could help you with your project
+                Work with us
               </a>
             </div>
           </div>
@@ -64,6 +52,6 @@ export default function Home() {
           />
         </div>
       </div>
-    </>
+    </main>
   );
 }

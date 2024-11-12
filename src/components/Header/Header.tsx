@@ -48,7 +48,7 @@ export default function Header() {
             </a>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+        <h1 className="hidden lg:flex lg:flex-1 lg:justify-end">VIATORA</h1>
       </nav>
       <Dialog
         open={mobileMenuOpen}
