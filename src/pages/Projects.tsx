@@ -5,19 +5,19 @@ const projects: DataEntry[] = [
   {
     name: "Wedgy Music",
     role: "Website for Leeds-based musician Wedgy in Typescript and React",
-    imageUrl: "./src/assets/wedgy.jpg",
+    imageUrl: "/src/assets/wedgy.jpg",
     url: "https://wedgy.netlify.app/",
   },
   {
     name: "Clarks Bowling Club",
     role: "Website for French band Clarks Bowling Club in Typescript and React, using parallax and video effects",
-    imageUrl: "./src/assets/clarks.jpg",
+    imageUrl: "/src/assets/clarks.jpg",
     url: "https://clarksbowlingclub.netlify.app/",
   },
   {
     name: "Ruby Kiwinda",
     role: "Website for visual artist Ruby Kiwinda",
-    imageUrl: "./src/assets/ruby-kiwinda.jpg",
+    imageUrl: "/src/assets/ruby-kiwinda.jpg",
     url: "https://rubykiwinda.com/",
   },
 ];

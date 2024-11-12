@@ -27,7 +27,7 @@ export default function Page({ data, info }: PageComponentProps) {
                 <img
                   alt=""
                   src={datum.imageUrl}
-                  className="h-16 w-16 rounded-full"
+                  className="h-16 w-16 rounded-full object-cover"
                 />
                 <div>
                   <h3 className="text-base/7 font-semibold tracking-tight">
