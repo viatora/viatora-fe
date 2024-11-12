@@ -17,6 +17,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
+          <Link to="/projects" className={navItemClasses}>
+            Projects
+          </Link>
+        </li>
+        <li>
           <Link to="/contact" className={navItemClasses}>
             Contact
           </Link>
