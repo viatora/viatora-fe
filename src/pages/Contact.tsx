@@ -84,10 +84,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label
-              htmlFor="company"
-              className="block text-sm/6 font-semibold"
-            >
+            <label htmlFor="company" className="block text-sm/6 font-semibold">
               Company
             </label>
             <div className="mt-2.5">
@@ -101,10 +98,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label
-              htmlFor="email"
-              className="block text-sm/6 font-semibold"
-            >
+            <label htmlFor="email" className="block text-sm/6 font-semibold">
               Email
             </label>
             <div className="mt-2.5">
@@ -149,10 +143,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label
-              htmlFor="message"
-              className="block text-sm/6 font-semibold"
-            >
+            <label htmlFor="message" className="block text-sm/6 font-semibold">
               Message
             </label>
             <div className="mt-2.5">
@@ -191,7 +182,7 @@ export default function Contact() {
         <div className="mt-10">
           <button
             type="submit"
-            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-[#EC5E29] px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-[#fd8960] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Let's talk
           </button>
