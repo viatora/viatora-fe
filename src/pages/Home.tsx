@@ -1,5 +1,7 @@
 "use client";
 
+import Logo from "../assets/logo.svg";
+
 export default function Home() {
   return (
     <>
@@ -32,7 +34,7 @@ export default function Home() {
             </h1>
             <img
               alt="Viatora Digital Logo"
-              src="./src/assets/logo.svg"
+              src={Logo}
               className="m-20 h-60 mx-auto"
             />
             <p className="text-pretty text-lg font-medium sm:text-xl/8">
