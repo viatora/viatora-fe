@@ -23,7 +23,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img alt="" src="./src/assets/favicon.svg" className="h-8 w-auto" />
+            <img alt="" src="/src/assets/favicon.svg" className="h-8 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -61,7 +61,7 @@ export default function Header() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="./src/assets/favicon.svg"
+                src="/src/assets/favicon.svg"
                 className="h-8 w-auto"
               />
             </a>
@@ -81,7 +81,7 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold hover:text-[#EC5E29]"
                   >
                     {item.name}
                   </a>

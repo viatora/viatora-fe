@@ -32,7 +32,7 @@ export default function Home() {
             </h1>
             <img
               alt="Viatora Digital Logo"
-              src="./src/assets/logo.svg"
+              src="/src/assets/logo.svg"
               className="m-20 h-60 mx-auto"
             />
             <p className="text-pretty text-lg font-medium sm:text-xl/8">
