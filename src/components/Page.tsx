@@ -27,15 +27,13 @@ export default function Page({ data, info }: PageComponentProps) {
                 <img
                   alt=""
                   src={datum.imageUrl}
-                  className="h-16 w-16 rounded-full object-cover"
+                  className="h-32 w-32 rounded-full object-cover"
                 />
                 <div>
-                  <h3 className="text-base/7 font-semibold tracking-tight">
+                  <h3 className="text-base/9 hover:text-viaOrange font-semibold tracking-tight">
                     {datum.name}
                   </h3>
-                  <p className="text-sm/6 font-semibold text-indigo-600">
-                    {datum.role}
-                  </p>
+                  <p className="text-sm/6 font-semibold">{datum.role}</p>
                 </div>
               </div>
             </li>

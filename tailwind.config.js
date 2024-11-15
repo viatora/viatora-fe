@@ -4,9 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          dark: "#121212",
-        },
+        dark: "#121212",
+        viaOrange: "#EC5E29",
       },
     },
   },
