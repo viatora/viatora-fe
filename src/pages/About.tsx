@@ -1,13 +1,13 @@
 import { DataEntry, InfoProps } from "../utils/types";
 import Page from "../components/Page";
+import maxImage from "../assets/max.jpg";
 import jackImage from "../assets/jack.png";
 
 const people: DataEntry[] = [
   {
     name: "Maxime Downe",
     role: "Co-Founder / Full-Stack Developer",
-    imageUrl:
-      "https://st3.depositphotos.com/15648834/17930/v/450/depositphotos_179308458-stock-illustration-unknown-person-silhouette-profile-picture.jpg",
+    imageUrl: maxImage,
     url: "https://www.linkedin.com/in/maxime-downe-642ba74b",
   },
   {
