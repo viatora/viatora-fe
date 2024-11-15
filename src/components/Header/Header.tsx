@@ -42,7 +42,7 @@ export default function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm/6 font-semibold hover:text-[#EC5E29]"
+              className="text-sm/6 font-semibold hover:text-[#EC5E29] "
             >
               {item.name}
             </a>
