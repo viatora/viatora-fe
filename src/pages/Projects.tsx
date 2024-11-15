@@ -9,7 +9,7 @@ const projects: DataEntry[] = [
     name: "Wedgy Music",
     role: "Website for Leeds-based musician Wedgy in Typescript and React",
     imageUrl: wedgyImage,
-    url: "https://wedgy.netlify.app/",
+    url: "https://wedgymusic.co.uk/",
   },
   {
     name: "Clarks Bowling Club",
