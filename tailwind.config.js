@@ -7,6 +7,10 @@ export default {
         dark: "#121212",
         viaOrange: "#EC5E29",
       },
+      fontFamily: {
+        swissLight: ["Swiss721BT-LightExtended"],
+        swissBold: ["Swiss721BT-BoldExtended"],
+      },
     },
   },
   plugins: [],

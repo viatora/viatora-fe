@@ -32,7 +32,7 @@ export default function Home() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="/contact"
-                className="rounded-md text-black bg-[#EC5E29] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-[#fd8960] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md text-black bg-viaOrange px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-[#fd8960] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-viaOrange"
               >
                 Work with us
               </a>
