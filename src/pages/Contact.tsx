@@ -40,11 +40,11 @@ export default function Contact() {
         "uLzXR1hfOlRG_HkNU"
       )
       .then(
-        (result) => {
-          alert("Thank you for contacting Viatora!");
+        () => {
+          alert(`Thank you for contacting Viatora!`);
         },
         (error) => {
-          alert("Failed to send message. Please try again later.");
+          alert("Failed to send message. Please try again later. " + error);
         }
       );
   };
