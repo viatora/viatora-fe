@@ -13,14 +13,18 @@
 }
 
 body {
-  @apply bg-[#121212] text-white;
-  font-family: "Swiss721BT-LightExtended", sans-serif;
+  @apply bg-[#121212] text-white font-swissLight;
+}
+
+input,
+textarea {
+  @apply text-black;
 }
 
 h1,
 h2,
 nav {
-  font-family: "Swiss721BT-BoldExtended", sans-serif;
+  @apply font-swissBold;
 }
 
 input {
