@@ -3,6 +3,7 @@ import Page from "../components/Page";
 import clarksImage from "../assets/clarks.jpg";
 import rubyImage from "../assets/ruby-kiwinda.jpg";
 import wedgyImage from "../assets/wedgy.jpg";
+import twdImage from "../assets/twd.svg";
 
 const projects: DataEntry[] = [
   {
@@ -10,6 +11,12 @@ const projects: DataEntry[] = [
     role: "Website for Leeds-based musician Wedgy in Typescript and React",
     imageUrl: wedgyImage,
     url: "https://wedgymusic.co.uk/",
+  },
+  {
+    name: "Things We Do",
+    role: "Offline first mobile app for managing behaviour control conditions such as Tourette's syndrome",
+    imageUrl: twdImage,
+    url: "https://thingswedo.netlify.app/",
   },
   {
     name: "Clarks Bowling Club",
